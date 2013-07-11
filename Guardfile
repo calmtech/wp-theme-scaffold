@@ -6,7 +6,7 @@ guard 'coffeescript', :output => 'js' do
 	watch(%r{coffee/(.+\.coffee)})
 end
 
-guard :concat, :type => "css", :files => %w(base), :input_dir => "css", :output => "style.css"
+guard :concat, :type => "css", :files => %w(base), :input_dir => "css", :output => "style"
 guard :concat, :type => "js", :files => %w(app), :input_dir => "js", :output => "js/all"
 
 guard 'uglify', :destination_file => "js/all.min.js" do
