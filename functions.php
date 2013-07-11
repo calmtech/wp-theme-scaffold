@@ -1,12 +1,10 @@
 <?php
 /**
- * ...
+ * テーマ関数
  *
  * @package WordPress
- * @subpackage ...
+ * @subpackage wp-theme-scaffold
  */
-//メニュー機能の有効化
-add_theme_support( 'menus' );
-//アイキャッチの有効化
-add_theme_support( 'post-thumbnails' );
+get_template_part('/model/wordpress');
+get_template_part('/helper/application', 'helper');
 ?>

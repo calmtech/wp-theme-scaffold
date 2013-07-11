@@ -3,7 +3,7 @@
  * メインテンプレート
  *
  * @package WordPress
- * @subpackage ...
+ * @subpackage wp-theme-scaffold
  */
 ?>
 <?php get_header(); ?>
